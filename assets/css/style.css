@@ -258,6 +258,8 @@ footer {
 
 /*Media queries*/
 
+/* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width:1200px){
     #club-ethos {
         width: 65%;
@@ -280,6 +282,13 @@ footer {
         clear: both;
         width: 100%;
         float: left;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
     }
     hr {
         display: none;
